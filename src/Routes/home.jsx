@@ -1,4 +1,5 @@
 import '../styles/home.css'
+import Committee from '../components/committee';
 
 function Home() {
     return (
@@ -9,6 +10,8 @@ function Home() {
                     <p>A student union that provides collective representation, resources, and community support, fostering collaboration and helping students achieve academic, social, and personal success on campus.</p>
                 </div>
             </div>
+            <Committee />
+            
         </main>
     )
 }

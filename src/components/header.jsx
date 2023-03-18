@@ -9,14 +9,20 @@ function Header() {
                 <img src={Logo} alt="" />
                 <h1>I.S.U</h1>
             </div>
-            <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/news'>News</Link>
-                <Link to='/election'>Election</Link>
-                <Link to='/officials'>Officials</Link>
-            </nav>
-            <div className="login">Register/Login</div>
+            <div className='desktop'>
+                <nav>
+                    <Link to='/'>Home</Link>
+                    <Link to='/about'>About</Link>
+                    <Link to='/news'>News</Link>
+                    <Link to='/election'>Election</Link>
+                    <Link to='/officials'>Officials</Link>
+                </nav>
+                <div className="login">Register/Login</div>
+            </div>
+            <div className="mobile">
+                
+                
+            </div>
         </header>
     );
 }
